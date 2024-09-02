@@ -1,0 +1,18 @@
+server:
+  address: "127.0.0.1"
+  port: "8080"
+
+postgres:
+  address: "postgres"
+  port: "5432"
+  user: "tiny-user"
+  password: "tiny-password"
+  database: "tiny"
+
+kafka:
+  producers: "kafka:19092"
+
+redis:
+  address: "keydb"
+  port: "6379"
+  password: "password"
